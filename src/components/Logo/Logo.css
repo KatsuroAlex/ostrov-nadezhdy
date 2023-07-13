@@ -1,0 +1,17 @@
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.logo__logo-container {
+  max-width: 100%;
+  max-height: 722px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.logo__picture {
+  max-width: 100%;
+  max-height: 100%;
+}

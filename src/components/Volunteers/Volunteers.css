@@ -1,0 +1,107 @@
+.volunteers {
+  justify-content: center;
+  padding: 50px 0 50px 0;
+  background-image: url(../../images/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .volunteers {
+    padding: 36px 30px 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .volunteers {
+    padding: 36px 19px 0;
+  }
+}
+
+.volunteers__title-main {
+  font-size: 36px;
+  color: #000;
+  text-align: center;
+  margin: 30px auto 92px auto;
+}
+
+.volunteers__container {
+  max-width: 1060px;
+  max-height: 363px;
+  margin: 0;
+  padding: 0 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.volunteers__picture {
+  border-radius: 35px;
+}
+
+
+
+.volunteers__picture:nth-child(1) {
+  /* flex-basis: 50%; */
+  /* box-sizing: border-box; */
+  max-width: 630px;
+  max-height: 363px;
+
+}
+
+.volunteers__picture:nth-child(2) {
+  /* flex-basis: 50%; */
+  /* box-sizing: border-box; */
+  max-width: 357px;
+  max-height: 363px;
+} 
+
+.volunteers__title {
+  font-size: 36px;
+  color: #000;
+  text-align: justify;
+  padding: 30px 60px;
+  max-width: 1060px;
+  min-height: 225px;
+  margin: 0;
+
+}
+
+
+.volunteers__container-second {
+  max-width: 1060px;
+  max-height: 363px;
+  margin: 0;
+  padding: 113px 60px 0 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.volunteers__image {
+  border-radius: 35px;
+}
+
+.volunteers__image:nth-child(1) {
+  max-width: 273px;
+  max-height: 298px;
+  width: 100%;
+}
+
+.volunteers__image:nth-child(2) {
+  max-width: 273px;
+  max-height: 298px;
+  width: 100%;
+
+}
+
+.volunteers__image:nth-child(3) {
+  max-width: 364px;
+  max-height: 298px;
+  width: 100%;
+}

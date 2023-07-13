@@ -1,0 +1,124 @@
+.about {
+  /* max-width: 1080px; */
+  max-width: 100%;
+
+  /* max-height: 3442px; */
+  max-height: 100%;
+  background-image: url("../../images/resul-mentes-DbwYNr8RPbg-unsplash.jpg");
+}
+
+.about__title {
+  color: #000;
+  text-align: center;
+  font-size: 62px;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.about__photo {
+  max-width: 100%;
+  flex-direction: row;
+  display: flex;
+  padding: 0 106px;
+  justify-content: space-between;
+  
+}
+
+.about__employee-card {
+  max-width: 100%;
+  max-height: 450px;
+  /* padding: 0 0 124px 106px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.about__employee-description {
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  margin: 41px 0 0 0;
+}
+
+
+.about__employee-photo {
+  width: 360px;
+  height: 360px;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-radius: 80%;
+  margin: auto;
+}
+
+.about__subtitle {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 124px;
+}
+
+.about__first-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 93px 0 93px;
+}
+
+.about__first-block_reverse {
+  flex-direction:row-reverse;
+}
+
+.about__first-block-title {
+  color: #000;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+.about__first-block-image {
+  width: 388px;
+  height: 297px;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-radius: 80%;
+  margin: auto;
+}
+
+
+.about__targets {
+  padding: 0 93px 0 93px;
+  
+}
+
+.about__targets-title {
+  color: #000;
+  font-size: 32px;
+}
+
+.about__targets-description {
+  color: #000;
+  font-size: 28px;
+}
+
+.about__find {
+  padding: 0 93px 0 93px;
+}
+
+.about__find-title {
+  color: #000;
+  font-size: 32px;
+}
+
+.about__find-description {
+  color: #000;
+  font-size: 28px;
+}
+
+.about__map {
+  margin: 0 auto;
+  width: 890px;
+  height: 621px;
+  padding: 46px 93px 68px 93px;
+}
