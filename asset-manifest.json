@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ostrov-nadezhdy/static/css/main.14bb4ff0.css",
-    "main.js": "/ostrov-nadezhdy/static/js/main.6aa66c57.js",
+    "main.js": "/ostrov-nadezhdy/static/js/main.8ccf0f42.js",
     "static/js/787.bd9e7969.chunk.js": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js",
     "static/media/page_main_1.png": "/ostrov-nadezhdy/static/media/page_main_1.3934fe9f4e3a24837b9c.png",
     "static/media/сat_reflection.png": "/ostrov-nadezhdy/static/media/сat_reflection.c3b1ebdb59e2cbec6570.png",
@@ -33,11 +33,11 @@
     "index.html": "/ostrov-nadezhdy/index.html",
     "static/media/close-btn.svg": "/ostrov-nadezhdy/static/media/close-btn.118074baed770c43e4bc.svg",
     "main.14bb4ff0.css.map": "/ostrov-nadezhdy/static/css/main.14bb4ff0.css.map",
-    "main.6aa66c57.js.map": "/ostrov-nadezhdy/static/js/main.6aa66c57.js.map",
+    "main.8ccf0f42.js.map": "/ostrov-nadezhdy/static/js/main.8ccf0f42.js.map",
     "787.bd9e7969.chunk.js.map": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14bb4ff0.css",
-    "static/js/main.6aa66c57.js"
+    "static/js/main.8ccf0f42.js"
   ]
 }
