@@ -16,37 +16,21 @@ function Header() {
 
       <div className="header__container">
         <ul className="header__list-links">
-          
           <li className="header__item">
-            <Link className="header__list-link" to="/">
-              Главная
-            </Link>
+            <Link className="header__list-link" to="/">Главная</Link>
           </li>
-
           <li className="header__item">
-              <Link className="header__list-link" to="/dogs">
-                Собаки
-              </Link>
+              <Link className="header__list-link" to="/dogs">Собаки</Link>
           </li>
-
           <li className="header__item">
-            <Link className="header__list-link" to="/cats">
-              Кошки
-            </Link>
+            <Link className="header__list-link" to="/cats">Кошки</Link>
           </li>
-
           <li className="header__item">
-            <Link className="header__list-link" to="/volunteers">
-              Волонтерство
-            </Link>
+            <Link className="header__list-link" to="/volunteers">Волонтерство</Link>
           </li>
-
           <li className="header__item">
-            <Link className="header__list-link" to="/help">
-              Как помочь
-            </Link>
+            <Link className="header__list-link" to="/help">Как помочь</Link>
           </li>
-
         </ul>
       </div>
     </header>

@@ -2,13 +2,13 @@
 .dogs {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
-  /* grid-template-columns: repeat(auto-fit, minmax(282px, max-content)); */
   justify-content: center;
   padding-top: 50px;
   padding: 50px 0 50px 0;
   row-gap: 20px;
   column-gap: 18px;
-  background: linear-gradient(#4DD5F3, #FF9900);
+  background: linear-gradient(#f1f1f1, #cbcbcb);
+  /* background-color: #f1f1f1; */
   max-height: 100%;
   max-width: 100%;
 }

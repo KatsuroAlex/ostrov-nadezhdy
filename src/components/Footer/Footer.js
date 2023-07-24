@@ -13,6 +13,7 @@ import LogoFooter from '../../images/Logo_footer.jpg';
 function Header() {
   return (
     <footer className="footer">
+
       <h2 className="footer__title">Приют для бездомных животных - бессрочный проект, без права на усталость.</h2>
       <div className="footer__container">
         
@@ -73,3 +74,5 @@ function Header() {
 };
   
 export default Header;
+
+

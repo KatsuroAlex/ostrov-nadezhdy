@@ -1,15 +1,21 @@
 .header {
-  margin: 0;
+  margin: 0 auto;
   padding: 0 27px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 74px;
-  max-width: 100%;
+  max-width: 1080px;
   box-sizing: border-box;
-  color: #FFFFFF;
-  background-color: #ff9900;
+  /* background-color: #FFFFFF; */
+  /* background: linear-gradient(to right,#424a52, #FFFFFF); */
+  background: linear-gradient(to right,#9c6846, #FFFFFF);
+
+  /* box-shadow: 0 0 25px rgba(0, 0, 0, 0.5); */
+  box-shadow: 5px 0 25px rgba(0, 0, 0, 0.5),
+              -5px 0 25px rgba(0, 0, 0, 0.5);
 }
+
 
 .header__logo {
   margin: 18 auto 18px 70px;
@@ -20,9 +26,6 @@
 .header__logo:hover {
   opacity: 0.5;
 }
-
-
-
 
 .header__link {
   display: block;
@@ -45,6 +48,9 @@
   font-style: normal;
   font-weight: 500;
   color: #000000;
+  
+  /* color: #8f5531; */
+
   font-size: 22px;
   line-height: 16px;
   display: block;

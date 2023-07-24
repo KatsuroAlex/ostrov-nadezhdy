@@ -1,7 +1,7 @@
 import './Dogs.css';
 import React from "react";
 import Card from '../Card/Card';
-import image from '../../images/cat_3.png';
+import image from '../../images/R1el9GtltHk.jpg';
 
 
 function Dogs({onCardClick}) {
@@ -90,7 +90,7 @@ function Dogs({onCardClick}) {
         link={image}
         onCardClick={onCardClick}
         description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
+      /> 
     </section>
   );
 };

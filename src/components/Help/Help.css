@@ -1,7 +1,8 @@
 .help {
   justify-content: center;
-  padding: 50px 60px 50px 60px;
-  background-image: url(../../images/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+  /* padding: 50px 60px 50px 60px; */
+  /* background-image: url(../../images/mona-eendra-vC8wj_Kphak-unsplash.jpg); */
+  background-color: #e1e1e1;
   max-height: 100%;
   max-width: 100%;
   display: flex;
@@ -25,23 +26,27 @@
   font-size: 36px;
   color: #000;
   text-align: center;
-  margin: 30px auto 92px auto;
+  margin: 57px auto 24px auto;
 }
 
 .help__title {
   font-size: 28px;
   color: #000;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 
 .help__list-item {
   color: #000;
   font-size: 28px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .help__title-bottom {
   font-size: 36px;
   color: #000;
   text-align: center;
-  margin: 30px auto 20px auto;
+  margin: 30px auto 50px auto;
 }

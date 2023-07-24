@@ -1,6 +1,6 @@
 import './ImagePopup.css';
 import React from 'react';
-import useEscapeClose from '../Hooks/useEscapeClose.js';
+// import useEscapeClose from '../Hooks/useEscapeClose.js';
 
 //--- Компонент попапа с картинкой ---
 function ImagePopup({ onClose, onOverlayClose, card:{ isOpen, element:{name, link} } }) {

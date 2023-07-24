@@ -9,30 +9,38 @@ import Dogs from "../Dogs/Dogs";
 import Cats from "../Cats/Cats";
 import Volunteers from "../Volunteers/Volunteers";
 import Help from "../Help/Help";
+import Description from "../Description/Description"
 
 import Logo from "../Logo/Logo";
 import ImagePopup from "../ImagePopup/ImagePopup";
 
-
-import imageDogs from "../../images/page_dogs.png"; 
-import imageCats from "../../images/page_cats_3.png"; 
-import imageVolunteers from "../../images/сat_reflection.png"; 
-import imageHelp from "../../images/cat_3.png";
-
+import imageDogs from "../../images/5555 1.png"; 
+import imageCats from "../../images/kitty 2.png"; 
+import imageVolunteers from "../../images/volunteers_kittys 1.png"; 
+import imageHelp from "../../images/dogs222 1.png";
 
 
 
-function App() {
 
-  const [selectedCard, setSelectedCard] = useState({isOpen: false, element: {}});
+function App() {  
+  // const [isDropdownVisible, setDropdownVisible] = useState(false);
 
-  function handleCardClick(card) {
-    setSelectedCard({...selectedCard, isOpen: true, element: card});
-  }
+  // const toggleDropdown = () => {
+  //   setDropdownVisible(!isDropdownVisible);
+  // };
 
-  function closeAllPopups() {
-    setSelectedCard({...selectedCard, isOpen: false});
-  }
+  // const [isDropdownVisible, setDropdownVisible] = useState([false, false, false]);
+
+  // const toggleDropdown = (index) => {
+  //   const updatedDropdowns = [...isDropdownVisible];
+  //   updatedDropdowns[index] = !updatedDropdowns[index];
+  //   setDropdownVisible(updatedDropdowns);
+  // };
+
+
+
+
+
 
   return (
     <div className="app">
@@ -53,10 +61,15 @@ function App() {
               <Header />
               <Logo 
                 image={imageDogs}
+                // isDropdownVisible={isDropdownVisible}
+                // toggleDropdown={toggleDropdown}
               />
+              {/* <Description 
+                isDropdownVisible={isDropdownVisible}
+                toggleDropdown={toggleDropdown}
+              /> */}
               <Dogs />
               <Footer />
-              {/* <ImagePopup active={modalActive} setActive={setModalActive}/> */}
             </>
           }
         ></Route>
@@ -76,9 +89,9 @@ function App() {
           element={
             <>
               <Header />
-              <Logo 
+              {/* <Logo 
                 image={imageVolunteers}
-              />
+              /> */}
               <Volunteers />
               <Footer />
             </>
@@ -88,9 +101,9 @@ function App() {
           element={
             <>
               <Header />
-              <Logo 
+              {/* <Logo 
                 image={imageHelp}
-              />
+              /> */}
               <Help />
               <Footer />
             </>

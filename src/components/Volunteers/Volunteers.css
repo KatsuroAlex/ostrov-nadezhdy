@@ -1,6 +1,6 @@
 .volunteers {
   justify-content: center;
-  padding: 50px 0 50px 0;
+  padding: 0 0 50px 0;
   background-image: url(../../images/mona-eendra-vC8wj_Kphak-unsplash.jpg);
   max-height: 100%;
   max-width: 100%;
@@ -25,7 +25,7 @@
   font-size: 36px;
   color: #000;
   text-align: center;
-  margin: 30px auto 92px auto;
+  margin: 40px auto 40px auto;
 }
 
 .volunteers__container {
@@ -64,11 +64,19 @@
   font-size: 36px;
   color: #000;
   text-align: justify;
-  padding: 30px 60px;
+  padding: 40px 60px;
   max-width: 1060px;
   min-height: 225px;
   margin: 0;
 
+}
+
+.logo__title {
+  font-size: 42px;
+  position: absolute;
+  bottom: 16%;
+  left: 49%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -76,7 +84,7 @@
   max-width: 1060px;
   max-height: 363px;
   margin: 0;
-  padding: 113px 60px 0 60px;
+  padding: 60px 60px 0 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

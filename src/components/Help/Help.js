@@ -1,5 +1,6 @@
 import './Help.css';
 import React from "react";
+import imageHelp from '../../images/dogs222 1.png'
 
 
 
@@ -7,6 +8,10 @@ import React from "react";
 function Help() {
   return (
     <section className="help" >
+      <div className="logo__logo-container">
+        <img className="logo__picture" alt="Логотип" src={imageHelp}></img>
+        <h2 className="logo__header">Остров Надежды<br /> г.Городец</h2> 
+      </div>
       <h2 className="help__title-main">Как вы можете нам помочь?</h2>
       <p className="help__title">
         Благотворительный счёт приюта<br />
