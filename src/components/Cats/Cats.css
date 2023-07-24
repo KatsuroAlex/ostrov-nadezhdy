@@ -12,7 +12,12 @@
   background-image: url(../../images//mona-eendra-vC8wj_Kphak-unsplash.jpg);
 
   max-height: 100%;
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 1080px;
+  margin: 0 auto;
+  box-shadow:  5px 0 25px rgba(0, 0, 0, 0.5),
+  -5px 0 25px rgba(0, 0, 0, 0.5);
+
 }
 
 @media screen and (max-width: 767px) {

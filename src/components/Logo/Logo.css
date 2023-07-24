@@ -1,7 +1,11 @@
 .logo {
-  max-width: 100%;
+  max-width: 1080px;
   max-height: 100%;
   box-sizing: border-box;
+  margin: 0 auto;
+  box-shadow:  5px 0 25px rgba(0, 0, 0, 0.5),
+  -5px 0 25px rgba(0, 0, 0, 0.5);
+
 }
 
 .logo__logo-container {

@@ -6,7 +6,7 @@ import image from '../../images/cat_3.png';
 
 function Cats({onCardClick}) {
   return (
-    <section className="cats page__center" aria-label="Фотографии">
+    <section className="cats" aria-label="Фотографии">
       <Card
         name={"Жулик"}
         link={image}
