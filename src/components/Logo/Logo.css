@@ -114,7 +114,8 @@
   }
 
   .logo__logo-container {
-    height: 450px;  }
+    height: 400px;  
+  }
 
   .logo__picture {
     width: 100%;
@@ -153,6 +154,10 @@
   
   .logo__description-subtitle {
     font-size: 7px;
+  }
+
+  .logo__logo-container {
+    height: 350px;  
   }
 
 }
