@@ -1,7 +1,8 @@
 .volunteers {
   justify-content: center;
   padding: 0 0 50px 0;
-  background-image: url(../../images/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+  /* background-image: url(../../images/mona-eendra-vC8wj_Kphak-unsplash.jpg); */
+  background: linear-gradient(#f1f1f1, #cbcbcb);
   max-height: 100%;
   max-width: 1080px;
   margin: 0 auto;

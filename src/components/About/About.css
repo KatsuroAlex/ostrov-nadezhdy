@@ -72,11 +72,13 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 60px 93px 0 93px;
+  column-gap: 50px;
 }
 
 .about__first-block_reverse {
   flex-direction:row-reverse;
   padding-bottom: 40px;
+
 }
 
 .about__first-block-title {
@@ -84,24 +86,52 @@
   display: flex;
   align-items: center;
   font-size: 24px;
+  line-height: 40px;
+  text-align: justify;
+  max-width: 44%;
 }
-.about__first-block-image {
-  width: 388px;
-  height: 297px;
+
+.about__image {
+  max-width: 388px;
+  max-height: 297px;
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
   object-fit: cover;
-  border-radius: 30%;
+  /* border-radius: 30%; */
+  margin: auto 0 auto auto;
+
+}
+
+
+.about__image-centrate {
   margin: auto auto auto 0;
 }
 
-.image__center {
-  margin: auto 0 auto auto;
+
+.about__first-block-image {
+  max-width: 388px;
+  max-height: 297px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  object-fit: cover;
+  border-radius: 30%;
+  /* margin: auto auto auto 0; */
 }
+
+
+
+
+
+/* .image__center {
+  margin: auto 0 auto auto;
+} */
 
 .about__targets {
   padding: 10px 93px 25px 93px;
   background-color: #43474A;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .about__targets-title {
@@ -117,6 +147,8 @@
   color: #000;
   font-size: 28px;
   color: #ffffff;
+  text-align: justify;
+
 
 }
 
@@ -132,7 +164,6 @@
   text-align: center;
   padding-top: 30px;
   margin-top: 0;
-
 }
 
 .about__find-description {
@@ -140,11 +171,199 @@
   font-size: 28px;
   margin-bottom: 0px;
   padding-bottom: 25px;
+  text-align: justify;
 }
+
 
 .about__map {
   margin: 0 auto;
-  max-width: 890px;
-  height: 621px;
+  max-width: 100%;
+  max-height: 621px;
   padding: 46px 93px 68px 93px;
+}
+
+.about__map-image {
+  width: 100%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+
+  .about__first-block-title {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .about__targets-description {
+    font-size: 24px;
+  }
+  
+  .about__find-description {
+    font-size: 24px;
+  }
+
+}
+
+@media screen and (max-width: 900px) {
+  .about__first-block {
+    column-gap: 40px;
+  }
+  
+  .about__first-block-title {
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .about__image {
+    max-width: 280px;
+    max-height: 280px;
+  }
+
+  .about__first-block_reverse {
+    padding-top: 40px;
+  
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+  .about__find {
+    padding: 0 60px 0 60px;
+  }
+
+  .about__first-block {
+    padding: 40px 60px 0 60px;
+    /* column-gap: 50px; */
+  }
+
+  .about__first-block_reverse {
+    padding-bottom: 40px;
+    padding-top: 20px;
+  
+  }
+
+  .about__first-block-title {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .about__targets-description {
+    font-size: 20px;
+  }
+  
+  .about__find-description {
+    font-size: 20px;
+  }
+
+  .about__targets-title {
+    font-size: 26px;
+  }
+
+  .about__find-title {
+    font-size: 26px;
+  }
+
+  .about__map {
+    padding: 0 60px 68px 60px;
+  }
+
+  .about__targets {
+    padding: 10px 60px 25px 60px;
+
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .about__first-block-title {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .about__targets-description {
+    font-size: 14px;
+  }
+  
+  .about__find-description {
+    font-size: 14px;
+  }
+
+  .about__targets-title {
+    font-size: 20px;
+  }
+
+  .about__find-title {
+    font-size: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .about__first-block {
+    /* flex-direction: column; */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-top: 40px; */
+    /* padding: 60px 40px 0 40px; */
+    column-gap: 20px;
+  }
+
+  .about__first-block-title {
+    /* font-size: 11px;
+    line-height: 18px; */
+    /* margin-top: 0;
+    margin-bottom: 0; */
+  }
+
+  .about__targets {
+    padding: 10px 30px 25px 30px;
+
+  }
+
+  .about__find {
+    padding: 0 30px 0 30px;
+  }
+
+  .about__map {
+    padding: 0 30px 40px 30px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .about__first-block-title {
+    font-size: 10px;
+    line-height: 16px;
+
+  }
+
+
+
+  .about__targets-title {
+    font-size: 16px;
+  }
+
+  .about__targets-description {
+    font-size: 12px;
+  }
+
+
+
+  .about__find-title {
+    font-size: 16px;
+  }
+
+  .about__find-description {
+    font-size: 12px;
+  }
+
+
+
+
 }

@@ -84,9 +84,12 @@
 
 .card {
   position: relative;
-  width: 300px;
-  height: 350px;
-  margin: 20px;
+  /* width: 300px;
+  height: 350px; */
+  width: 270px;
+  height: 310px;
+  /* margin: 20px; */
+  margin: auto;
 }
 
 .card .face{
@@ -130,7 +133,7 @@
     #784ba0 50%,
     #2b86c5 100%
   );
-  padding: 15px;
+  /* padding: 15px; */
   color: #f3f3f3;
   display: flex;
   flex-direction: column;
@@ -184,3 +187,6 @@
   overflow: hidden;
   transition: opacity .3s ease-in;
 }
+
+
+

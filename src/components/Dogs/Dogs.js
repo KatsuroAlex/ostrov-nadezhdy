@@ -1,98 +1,24 @@
 import './Dogs.css';
 import React from "react";
 import Card from '../Card/Card';
-import image from '../../images/R1el9GtltHk.jpg';
+import dogsData from '../Arrays/DogsArray'
 
 
-function Dogs({onCardClick}) {
+function Dogs({ onCardClick }) {
   return (
-    <section className="dogs page__center" aria-label="Фотографии">
-      <Card
-        name={"Жулик"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      />
-      <Card
-        name={"Tolik"}
-        link={image}
-        onCardClick={onCardClick}
-        description="Люблю бегать, прыгать, лаять, копать землю и искать всякие палки"
-      /> 
+    <section className="dogs" aria-label="Фотографии">
+      {dogsData.map((dog) => (
+        <Card
+          key={dog.id}
+          name={dog.name}
+          link={dog.link}
+          onCardClick={onCardClick}
+          description={dog.description}
+        />
+      ))}
     </section>
   );
 };
-  
+
+
 export default Dogs;

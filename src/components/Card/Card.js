@@ -1,6 +1,5 @@
 import React from 'react';
 import './Card.css';
-import image from '../../images/cat_3.png'
 
 
 function Card({link, name, description}) {
