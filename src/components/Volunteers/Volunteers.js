@@ -19,9 +19,17 @@ function Volunteers() {
         <p className="logo__title">Все о волонтерстве</p> 
       </div>
       <h2 className="volunteers__title-main">Нам нужны волонтеры! Важен каждый человек!</h2>
-      <div className="volunteers__container">
+      {/* <div className="volunteers__container">
         <img className="volunteers__picture" alt="Фото собаки" src={dogImage1}></img>
         <img className="volunteers__picture" alt="Фото собаки" src={dogImage2}></img>
+      </div> */}
+      <div className="volunteers__container">
+        <div className="volunteers__picture volunteers__picture--first">
+          <img alt="Фото собаки" src={dogImage1} />
+        </div>
+        <div className="volunteers__picture volunteers__picture--second">
+          <img alt="Фото собаки" src={dogImage2} />
+        </div>
       </div>
       <p className="volunteers__title">
         Волонтеры - это люди, готовые на постоянной основе
@@ -31,10 +39,22 @@ function Volunteers() {
         найти им постоянный дом и хозяев или помогать
         с уборкой внутри приюта.
       </p>
-      <div className="volunteers__container-second">
+      {/* <div className="volunteers__container-second">
         <img className="volunteers__image" alt="Фото собаки" src={dogImage3}></img>
         <img className="volunteers__image" alt="Фото собаки" src={dogImage4}></img>
         <img className="volunteers__image" alt="Фото собаки" src={dogImage5}></img>
+      </div> */}
+
+      <div className="volunteers__container-second">
+        <div className="volunteers__image volunteers__image--first">
+          <img alt="Фото собаки" src={dogImage3} />
+        </div>
+        <div className="volunteers__image volunteers__image--second">
+          <img alt="Фото собаки" src={dogImage4} />
+        </div>
+        <div className="volunteers__image volunteers__image--third">
+          <img alt="Фото собаки" src={dogImage5} />
+        </div>
       </div>
       <p className="volunteers__title">
         Также нам нужны люди, готовые взять животное на 

@@ -9,7 +9,7 @@
   background: linear-gradient(#f1f1f1, #cbcbcb);
   /* background-color: #f1f1f1; */
   max-height: 100%;
-  max-width: 1080px;
+  max-width: 1440px;
   margin: 0 auto;
   box-shadow:  5px 0 25px rgba(0, 0, 0, 0.5),
   -5px 0 25px rgba(0, 0, 0, 0.5);
@@ -19,12 +19,12 @@
 
 @media screen and (max-width: 767px) {
   .dogs {
-    padding: 36px 30px 0;
+    padding: 36px 30px;
   }
 }
 
 @media screen and (max-width: 560px) {
   .dogs {
-    padding: 36px 19px 0;
+    padding: 36px 19px;
   }
 }

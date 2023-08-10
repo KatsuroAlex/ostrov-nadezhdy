@@ -4,7 +4,7 @@
   /* background-image: url(../../images/mona-eendra-vC8wj_Kphak-unsplash.jpg); */
   background-color: #e1e1e1;
   max-height: 100%;
-  max-width: 1080px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,17 +14,7 @@
 
 }
 
-@media screen and (max-width: 767px) {
-  .help {
-    padding: 36px 30px 0;
-  }
-}
 
-@media screen and (max-width: 560px) {
-  .help {
-    padding: 36px 19px 0;
-  }
-}
 
 .help__title-main {
   font-size: 36px;
@@ -53,4 +43,98 @@
   color: #000;
   text-align: center;
   margin: 30px auto 50px auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .help__title-main {
+    font-size: 30px;
+    margin: 35px auto 20px auto;
+
+  }
+  
+  .help__title {
+    font-size: 26px;
+  }
+  
+  
+  .help__list-item {
+    font-size: 26px;
+  }
+  
+  .help__title-bottom {
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width: 760px) {
+  .help {
+    padding: 0;
+  }
+  
+  .help__title-main {
+    font-size: 26px;
+  }
+  
+  .help__title {
+    font-size: 18px;
+  }
+  
+  
+  .help__list-item {
+    font-size: 18px;
+  }
+  
+  .help__title-bottom {
+    font-size: 26px;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 560px) {
+  .help {
+    padding: 0;
+  }
+
+  .help__title-main {
+    font-size: 22px;
+  }
+  
+  .help__title {
+    font-size: 16px;
+  }
+  
+  
+  .help__list-item {
+    font-size: 16px;
+  }
+  
+  .help__title-bottom {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .help__title-main {
+    font-size: 18px;
+  }
+  
+  .help__title {
+    font-size: 14px;
+  }
+  
+  
+  .help__list-item {
+    font-size: 14px;
+  }
+  
+  .help__title-bottom {
+    font-size: 18px;
+  }
+
+
+
 }
