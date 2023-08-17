@@ -1,13 +1,11 @@
 {
   "files": {
-    "main.css": "/ostrov-nadezhdy/static/css/main.c1f993f8.css",
-    "main.js": "/ostrov-nadezhdy/static/js/main.1c765078.js",
+    "main.css": "/ostrov-nadezhdy/static/css/main.eec4d071.css",
+    "main.js": "/ostrov-nadezhdy/static/js/main.593689e3.js",
     "static/js/787.bd9e7969.chunk.js": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js",
     "static/media/cat_3.png": "/ostrov-nadezhdy/static/media/cat_3.b958339309a8758d2c1a.png",
-    "static/media/edward-cisneros-_H6wpor9mjs-unsplash.jpg": "/ostrov-nadezhdy/static/media/edward-cisneros-_H6wpor9mjs-unsplash.0730fe81bf6809fdacbb.jpg",
     "static/media/kenan-kitchen-LRu2JPt1yD0-unsplash.jpg": "/ostrov-nadezhdy/static/media/kenan-kitchen-LRu2JPt1yD0-unsplash.1f0538426082fcf61eb2.jpg",
     "static/media/mona-eendra-vC8wj_Kphak-unsplash.jpg": "/ostrov-nadezhdy/static/media/mona-eendra-vC8wj_Kphak-unsplash.411a9995dbda4cece4de.jpg",
-    "static/media/christian-buehner-DItYlc26zVI-unsplash.jpg": "/ostrov-nadezhdy/static/media/christian-buehner-DItYlc26zVI-unsplash.1dc3f55ec4295c93444a.jpg",
     "static/media/dogs222 1.png": "/ostrov-nadezhdy/static/media/dogs222 1.3a422f3919d22a1dbf2f.png",
     "static/media/5555 1.png": "/ostrov-nadezhdy/static/media/5555 1.4d490982c87768481731.png",
     "static/media/kitty 2.png": "/ostrov-nadezhdy/static/media/kitty 2.9755a7cdb35701b8fd89.png",
@@ -32,12 +30,12 @@
     "static/media/Inter-Regular.woff2": "/ostrov-nadezhdy/static/media/Inter-Regular.26a30a5f1103393aac70.woff2",
     "static/media/Logo_footer.jpg": "/ostrov-nadezhdy/static/media/Logo_footer.fe8d247702a9a06d338d.jpg",
     "index.html": "/ostrov-nadezhdy/index.html",
-    "main.c1f993f8.css.map": "/ostrov-nadezhdy/static/css/main.c1f993f8.css.map",
-    "main.1c765078.js.map": "/ostrov-nadezhdy/static/js/main.1c765078.js.map",
+    "main.eec4d071.css.map": "/ostrov-nadezhdy/static/css/main.eec4d071.css.map",
+    "main.593689e3.js.map": "/ostrov-nadezhdy/static/js/main.593689e3.js.map",
     "787.bd9e7969.chunk.js.map": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1f993f8.css",
-    "static/js/main.1c765078.js"
+    "static/css/main.eec4d071.css",
+    "static/js/main.593689e3.js"
   ]
 }
