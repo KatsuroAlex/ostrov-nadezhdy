@@ -1,6 +1,5 @@
 import './Footer.css';
 import React from "react";
-import { Link } from 'react-router-dom';
 import LogoOdnokl from '../../images/odnoglazniki_icon.png';
 import LogoVk from '../../images/vk_icon.png';
 import LogoFb from '../../images/facebook_icon.png';

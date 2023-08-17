@@ -18,11 +18,7 @@ function Volunteers() {
         <h2 className="logo__header">Остров Надежды<br /> г.Городец</h2> 
         <p className="logo__title">Все о волонтерстве</p> 
       </div>
-      <h2 className="volunteers__title-main">Нам нужны волонтеры! Важен каждый человек!</h2>
-      {/* <div className="volunteers__container">
-        <img className="volunteers__picture" alt="Фото собаки" src={dogImage1}></img>
-        <img className="volunteers__picture" alt="Фото собаки" src={dogImage2}></img>
-      </div> */}
+      <h2 className="volunteers__title-main">В нашем приюте около 150 собак и 30 кошек, поэтому нам нужны волонтеры!</h2>
       <div className="volunteers__container">
         <div className="volunteers__picture volunteers__picture--first">
           <img alt="Фото собаки" src={dogImage1} />
@@ -39,12 +35,6 @@ function Volunteers() {
         найти им постоянный дом и хозяев или помогать
         с уборкой внутри приюта.
       </p>
-      {/* <div className="volunteers__container-second">
-        <img className="volunteers__image" alt="Фото собаки" src={dogImage3}></img>
-        <img className="volunteers__image" alt="Фото собаки" src={dogImage4}></img>
-        <img className="volunteers__image" alt="Фото собаки" src={dogImage5}></img>
-      </div> */}
-
       <div className="volunteers__container-second">
         <div className="volunteers__image volunteers__image--first">
           <img alt="Фото собаки" src={dogImage3} />

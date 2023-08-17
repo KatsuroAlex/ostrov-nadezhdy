@@ -9,10 +9,7 @@ import Dogs from "../Dogs/Dogs";
 import Cats from "../Cats/Cats";
 import Volunteers from "../Volunteers/Volunteers";
 import Help from "../Help/Help";
-import Description from "../Description/Description"
-
 import Logo from "../Logo/Logo";
-
 import imageDogs from "../../images/5555 1.png"; 
 import imageCats from "../../images/kitty 2.png"; 
 

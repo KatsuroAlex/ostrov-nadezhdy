@@ -22,20 +22,3 @@ function Card({link, name, description}) {
 }
     
 export default Card;
-
-
-  // //---ОБРАБОТЧИКИ---
-  // //обработчик клика по карточке
-  // function handleClick() {
-  //   onCardClick(card);
-  // }
-
-
-    // <article className="element">
-    //   <img  className="element__pic" src={link} alt="Фото животного" onClick={handleClick}/>
-    //   <div className="element__container">
-    //     <h2 className="element__title">{name}</h2>
-    //     <p className="element__subtitle">{description}</p>
-    //     <button className="element__button" name="Подробнее" type="button" aria-label="Подробнее" onClick={popupOpen}>Подробнее</button>
-    //   </div>
-    // </article>
