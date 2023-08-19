@@ -1,5 +1,6 @@
 import './Logo.css';
 import React from 'react';
+import headerImage from '../../images/main_header.png';
 
 
 function Logo({image, isDropdownVisible, toggleDropdown}) {
@@ -11,7 +12,9 @@ function Logo({image, isDropdownVisible, toggleDropdown}) {
 
       <div className="logo__logo-container">
         <img className="logo__picture" alt="Логотип" src={image}></img>
-        <h2 className="logo__header">Остров Надежды<br /> г.Городец</h2> 
+        <div className="logo__header">
+          <img className="main__header-image" src={headerImage} alt="логотип"></img>
+        </div>
           <div className="logo__description-list">
             <div className="logo__description-block">
               <h2 className="logo__description-title">Почему стоит взять питомца из приюта?</h2>

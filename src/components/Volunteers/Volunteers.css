@@ -70,6 +70,8 @@
   text-align: center;
   margin: 40px auto 40px auto;
   padding: 0 90px;
+  font-family: 'Bad Script', cursive;
+  /* font-family: 'Lobster', cursive; */
 }
 
 .volunteers__title {
@@ -79,6 +81,7 @@
   padding: 40px 90px;
   max-width: 1060px;
   margin: 0 auto;
+  font-family: 'Bad Script', cursive;
 }
 
 .logo__title {
@@ -87,6 +90,8 @@
   bottom: 16%;
   left: 49%;
   transform: translate(-50%, -50%);
+  /* font-family: 'Bad Script', cursive; */
+  font-family: 'Lobster', cursive;
 }
 
 .volunteers__container-second {
@@ -211,8 +216,8 @@
   }
 
   .logo__title {
-    font-size: 16px;
-    bottom: 21%;
+    font-size: 18px;
+    bottom: 20%;
     left: 49%;
     transform: translate(-50%, -50%);
   }

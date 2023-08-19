@@ -25,11 +25,13 @@
 .logo__header {
   font-size: 30px;
   position: absolute;
-  top: 10%;
-  left: 15%;
+  top: 11%;
+  left: 16%;
+  width: 294px;
+  height: 114px;
   transform: translate(-50%, -50%);
-}
 
+}
 
 .logo__description-list {
   background: transparent;
@@ -54,20 +56,22 @@
   color: #8f5531;
   font-size: 16px;
   text-align: center;
+  font-family: 'Lobster', cursive;
 }
 
 .logo__description-subtitle {
   color: #FFFFFF;
   font-size: 14px;
   text-align: center;
+  font-family: 'Bad Script', cursive;
+
 }
 
 
 @media screen and (max-width: 900px) {
   .logo__header {
-    font-size: 26px;
-    top: 10%;
-    left: 18%;
+    width: 280px;
+    height: 114px;
   }
 
   .logo__description-title {
@@ -82,10 +86,8 @@
 
 @media screen and (max-width: 780px) {
   .logo__header {
-    font-size: 22px;
-    top: 10%;
-    left: 18%;
-
+    width: 220px;
+    height: 90px;
   }
 
   .logo__description-title {
@@ -99,7 +101,6 @@
 }
 
 @media screen and (max-width: 641px) {
-  
   .logo {
     height: 100%;
   }
@@ -115,10 +116,9 @@
   
   
   .logo__header {
-    font-size: 20px;
-    top: 10%;
-    left: 18%;
-
+    width: 175px;
+    height: 70px;
+    left: 16%;
   }
 
   .logo__description-title {
@@ -133,10 +133,10 @@
 
 @media screen and (max-width: 530px) {  
   .logo__header {
-    font-size: 14px;
-    top: 10%;
-    left: 18%;
-
+    width: 110px;
+    height: 50px;
+    left: 84%;
+    top: 12%;
   }
 
   .logo__description-title {
@@ -154,13 +154,6 @@
 }
 
 @media screen and (max-width: 450px) {
-  .logo__header {
-    font-size: 14px;
-    top: 10%;
-    left: 18%;
-
-  }
-
   .logo__description-title {
     font-size: 8px;
   }
@@ -170,10 +163,3 @@
   }
 }
 
-@media screen and (max-width: 450px) {
-  .logo__header {
-    font-size: 11px;
-    top: 10%;
-    left: 18%;
-  }
-}

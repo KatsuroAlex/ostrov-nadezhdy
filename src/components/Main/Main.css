@@ -30,11 +30,19 @@
 }
 
 .main__header {
-  font-size: 24px;
   position: absolute;
-  top: 15%;
-  left: 15%;
+  font-size: 25px;
+  width: 400px;
+  height: 137px;
+  top: 40%;
+  left: 19%;
   transform: translate(-50%, -50%);
+}
+
+.main__header-image {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .main__picture {
@@ -60,19 +68,30 @@
 }
 
 .main__description-title {
+  font-family: 'Lobster', cursive;
+  font-weight: bolder;
   color: #8f5531;
-  font-size: 14px;
+  font-size: 16px;
   text-align: center;
 }
 
 .main__description-subtitle {
+  font-family: 'Bad Script', cursive;
+
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 14px;
   text-align: center;
 }
 
 
 @media screen and (max-width: 1000px) {
+  .main__header {
+    width: 300px;
+    height: 137px;
+  }
+  
+
+  
   .main__description-list {
     font-size: 16px;
     column-gap: 18px;
@@ -89,13 +108,6 @@
 }
 
 @media screen and (max-width: 810px) {
-  .main__header {
-    font-size: 22px;
-    top: 15%;
-    left: 15%;
-  }
-
-
   .main__description-list {
     font-size: 14px;
     column-gap: 16px;
@@ -103,18 +115,14 @@
     width: 90%;
   }
 
-  .main__description-title {
-    font-size: 10px;
-  }
-
-  .main__description-subtitle {
-    font-size: 8px;
-  }
 }
 
 @media screen and (max-width: 720px) {
   .main__header {
     left: 20%;
+
+    width: 250px;
+    height: 110px;
   }
 
   .main__description-list {
@@ -143,6 +151,11 @@
 
 
 @media screen and (max-width: 600px) {
+  .main__header {
+    width: 210px;
+    height: 90px;
+  }
+
   .main__description-list {
     bottom: 2%;
   }
@@ -168,9 +181,8 @@
 
 @media screen and (max-width: 560px) {
   .main__header {
-    font-size: 16px;
-    top: 15%;
-    left: 20%;
+    width: 175px;
+    height: 70px;
   }
 
   .main__image-container {
@@ -185,9 +197,8 @@
 
 @media screen and (max-width: 400px) {
   .main__header {
-    font-size: 12px;
-    top: 15%;
-    left: 20%;
+    width: 125px;
+    height: 55px;
   }
 
   .main__image-container {

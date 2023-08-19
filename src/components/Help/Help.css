@@ -16,6 +16,7 @@
   color: #000;
   text-align: center;
   margin: 57px auto 24px auto;
+  font-family: 'Bad Script', cursive;
 }
 
 .help__title {
@@ -23,6 +24,9 @@
   color: #000;
   padding-left: 40px;
   padding-right: 40px;
+  font-family: 'Bad Script', cursive;
+  line-height: 45px;
+
 }
 
 
@@ -31,6 +35,8 @@
   font-size: 28px;
   margin-left: 40px;
   margin-right: 40px;
+  font-family: 'Bad Script', cursive;
+  line-height: 45px;
 }
 
 .help__title-bottom {
@@ -38,7 +44,12 @@
   color: #000;
   text-align: center;
   margin: 30px auto 50px auto;
+  font-family: 'Lobster', cursive;
 }
+
+/* .logo_help {
+  left: 17%;
+} */
 
 @media screen and (max-width: 1000px) {
   .help__title-main {
@@ -71,11 +82,13 @@
   
   .help__title {
     font-size: 18px;
+    line-height: 30px;
   }
   
   
   .help__list-item {
     font-size: 18px;
+    line-height: 30px;
   }
   
   .help__title-bottom {
@@ -96,15 +109,17 @@
     font-size: 16px;
   }
   
-  
   .help__list-item {
     font-size: 16px;
+
   }
   
   .help__title-bottom {
     font-size: 22px;
   }
 }
+
+
 
 @media screen and (max-width: 400px) {
   .help__title-main {

@@ -14,6 +14,7 @@
   color: #000;
   margin: 30px auto 20px auto;
   font-size: 24px;
+  font-family: 'Lobster', cursive;
 }
 
 .footer__container {
@@ -38,6 +39,8 @@
   display: flex;
   flex-direction: column;
   margin: auto auto auto 20px;
+  font-family: 'Bad Script', cursive;
+
 }
 
 .footer__contacts-block {
@@ -48,6 +51,8 @@
 .footer__contacts-title {
   color: #000;
   font-size: 24px;
+  font-family: 'Lobster', cursive;
+  
 }
 
 .footer__contacts-icon {
@@ -65,6 +70,13 @@
   color: #000;
 }
 
+.footer__social {
+  display: flex;
+  flex-direction: row;
+  margin: auto 0;
+  justify-content: space-between;
+}
+
 .footer__social-icons {
   list-style: none;
 
@@ -77,18 +89,15 @@
   column-gap: 5px;
 }
 
-.footer__social {
-  display: flex;
-  flex-direction: row;
-  margin: auto 0;
-  justify-content: space-between;
-}
+
 
 .footer__social-title {
   margin-right: 45px;
   color: #000;
   margin: auto;
   font-size: 24px;
+  font-family: 'Bad Script', cursive;
+
 }
 
 .footer__social-icon {

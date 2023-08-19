@@ -7,6 +7,8 @@ import dogImage3 from '../../images/kdbE9cfAFzA.jpg';
 import dogImage4 from '../../images/Eda4j_Q2X9M.jpg';
 import dogImage5 from '../../images//R1el9GtltHk.jpg';
 import imageVolunteers from '../../images/volunteers_kittys 1.png'
+import headerImage from '../../images/main_header.png';
+
 
 
 
@@ -15,9 +17,12 @@ function Volunteers() {
     <section className="volunteers" >
       <div className="logo__logo-container">
         <img className="logo__picture" alt="Логотип" src={imageVolunteers}></img>
-        <h2 className="logo__header">Остров Надежды<br /> г.Городец</h2> 
+        <div className="logo__header">
+          <img className="main__header-image" src={headerImage} alt="логотип"></img>
+        </div>
         <p className="logo__title">Все о волонтерстве</p> 
       </div>
+
       <h2 className="volunteers__title-main">В нашем приюте около 150 собак и 30 кошек, поэтому нам нужны волонтеры!</h2>
       <div className="volunteers__container">
         <div className="volunteers__picture volunteers__picture--first">

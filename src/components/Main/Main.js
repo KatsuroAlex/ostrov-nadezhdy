@@ -1,6 +1,8 @@
 import './Main.css';
 import React from "react";
 import image from "../../images/dogs_24 1.png";
+import headerImage from "../../images/main_header.png";
+
 
 
 function Main() {
@@ -8,7 +10,9 @@ function Main() {
     <section className="main">
       <div className="main__image-container">
         <img className="main__picture" alt="Логотип" src={image} />
-        <h1 className="main__header">Остров Надежды<br /> г.Городец</h1>  
+        <div className="main__header">
+          <img className="main__header-image" src={headerImage} alt="логотип"></img>
+        </div>
       </div>
       <div className="main__underphoto">          
           <div className="main__description-list">
