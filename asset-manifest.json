@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ostrov-nadezhdy/static/css/main.eec4d071.css",
-    "main.js": "/ostrov-nadezhdy/static/js/main.593689e3.js",
+    "main.css": "/ostrov-nadezhdy/static/css/main.3d345c46.css",
+    "main.js": "/ostrov-nadezhdy/static/js/main.88cab231.js",
     "static/js/787.bd9e7969.chunk.js": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js",
     "static/media/cat_3.png": "/ostrov-nadezhdy/static/media/cat_3.b958339309a8758d2c1a.png",
     "static/media/kenan-kitchen-LRu2JPt1yD0-unsplash.jpg": "/ostrov-nadezhdy/static/media/kenan-kitchen-LRu2JPt1yD0-unsplash.1f0538426082fcf61eb2.jpg",
@@ -29,13 +29,16 @@
     "static/media/Inter-Medium.woff2": "/ostrov-nadezhdy/static/media/Inter-Medium.d0a58d956cf2f4cf078f.woff2",
     "static/media/Inter-Regular.woff2": "/ostrov-nadezhdy/static/media/Inter-Regular.26a30a5f1103393aac70.woff2",
     "static/media/Logo_footer.jpg": "/ostrov-nadezhdy/static/media/Logo_footer.fe8d247702a9a06d338d.jpg",
+    "static/media/Lobster.woff2": "/ostrov-nadezhdy/static/media/Lobster.6f474ce265db04a201fe.woff2",
+    "static/media/BadScript.woff2": "/ostrov-nadezhdy/static/media/BadScript.8ef24318a4f9f463a66d.woff2",
+    "static/media/main_header.png": "/ostrov-nadezhdy/static/media/main_header.d39963bcb282e7d07477.png",
     "index.html": "/ostrov-nadezhdy/index.html",
-    "main.eec4d071.css.map": "/ostrov-nadezhdy/static/css/main.eec4d071.css.map",
-    "main.593689e3.js.map": "/ostrov-nadezhdy/static/js/main.593689e3.js.map",
+    "main.3d345c46.css.map": "/ostrov-nadezhdy/static/css/main.3d345c46.css.map",
+    "main.88cab231.js.map": "/ostrov-nadezhdy/static/js/main.88cab231.js.map",
     "787.bd9e7969.chunk.js.map": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eec4d071.css",
-    "static/js/main.593689e3.js"
+    "static/css/main.3d345c46.css",
+    "static/js/main.88cab231.js"
   ]
 }
