@@ -135,7 +135,9 @@
   .logo__header {
     width: 110px;
     height: 50px;
-    left: 84%;
+    /* left: 84%; */
+    left: 15%;
+
     top: 12%;
   }
 
@@ -161,5 +163,20 @@
   .logo__description-subtitle {
     font-size: 6px;
   }
+
+  .logo__header {
+
+    /* left: 19%; */
+    top: 12%;
+  }
 }
 
+
+@media screen and (max-width: 400px) {  
+  .logo__header {
+    width: 90px;
+    height: 40px;
+    left: 14%;
+    top: 12%;
+  }
+}

@@ -18,7 +18,7 @@ function Main() {
           <div className="main__description-list">
             <div className="main__description-block">
               <h2 className="main__description-title">Главная идея проекта</h2>
-              <p className="main__description-subtitle">помочь бездомным животным нашего города, района.</p>
+              <p className="main__description-subtitle">Помочь бездомным животным нашего города, района.</p>
             </div>
             <div className="main__description-block">
               <h2 className="main__description-title">Целевая аудитория</h2>

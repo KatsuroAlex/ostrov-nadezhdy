@@ -47,9 +47,9 @@
   font-family: 'Lobster', cursive;
 }
 
-/* .logo_help {
+.logo_help {
   left: 17%;
-} */
+}
 
 @media screen and (max-width: 1000px) {
   .help__title-main {
@@ -117,6 +117,10 @@
   .help__title-bottom {
     font-size: 22px;
   }
+
+  .logo_help {
+    left: 17%;
+  }
 }
 
 
@@ -128,10 +132,12 @@
   
   .help__title {
     font-size: 14px;
+    line-height: 25px;
   }
 
   .help__list-item {
     font-size: 14px;
+    line-height: 25px;
   }
   
   .help__title-bottom {
