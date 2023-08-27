@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ostrov-nadezhdy/static/css/main.3d345c46.css",
-    "main.js": "/ostrov-nadezhdy/static/js/main.88cab231.js",
+    "main.css": "/ostrov-nadezhdy/static/css/main.31035d40.css",
+    "main.js": "/ostrov-nadezhdy/static/js/main.af809dca.js",
     "static/js/787.bd9e7969.chunk.js": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js",
     "static/media/cat_3.png": "/ostrov-nadezhdy/static/media/cat_3.b958339309a8758d2c1a.png",
     "static/media/kenan-kitchen-LRu2JPt1yD0-unsplash.jpg": "/ostrov-nadezhdy/static/media/kenan-kitchen-LRu2JPt1yD0-unsplash.1f0538426082fcf61eb2.jpg",
@@ -33,12 +33,12 @@
     "static/media/BadScript.woff2": "/ostrov-nadezhdy/static/media/BadScript.8ef24318a4f9f463a66d.woff2",
     "static/media/main_header.png": "/ostrov-nadezhdy/static/media/main_header.d39963bcb282e7d07477.png",
     "index.html": "/ostrov-nadezhdy/index.html",
-    "main.3d345c46.css.map": "/ostrov-nadezhdy/static/css/main.3d345c46.css.map",
-    "main.88cab231.js.map": "/ostrov-nadezhdy/static/js/main.88cab231.js.map",
+    "main.31035d40.css.map": "/ostrov-nadezhdy/static/css/main.31035d40.css.map",
+    "main.af809dca.js.map": "/ostrov-nadezhdy/static/js/main.af809dca.js.map",
     "787.bd9e7969.chunk.js.map": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d345c46.css",
-    "static/js/main.88cab231.js"
+    "static/css/main.31035d40.css",
+    "static/js/main.af809dca.js"
   ]
 }
