@@ -133,6 +133,9 @@
   .help__title {
     font-size: 14px;
     line-height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px auto;
   }
 
   .help__list-item {
@@ -142,5 +145,9 @@
   
   .help__title-bottom {
     font-size: 18px;
+  }
+
+  .help__list {
+    padding-left: 15px;
   }
 }

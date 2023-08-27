@@ -4,9 +4,6 @@ import imageHelp from '../../images/dogs222 1.png'
 import headerImage from '../../images/main_header.png';
 
 
-
-
-
 function Help() {
   return (
     <section className="help" >
