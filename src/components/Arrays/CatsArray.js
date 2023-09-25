@@ -1,97 +1,44 @@
-import image from '../../images/cat_3.png';
+import image from '../../images/DogsPhoto/10.jpg';
 
 
 const catsData = [
   {
-    id: 16,
+    id: 201,
     name: "Жулик",
     link: image,
     description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
   },
   {
-    id: 17,
+    id: 202,
     name: "Tolik",
     link: image,
     description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
   },
   {
-    id: 18,
+    id: 203,
     name: "Tolik",
     link: image,
     description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
   },
   {
-    id: 19,
+    id: 204,
     name: "Tolik",
     link: image,
     description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
   },
   {
-    id: 20,
+    id: 205,
     name: "Tolik",
     link: image,
     description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
   },
   {
-    id: 21,
+    id: 206,
     name: "Tolik",
     link: image,
     description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
   },
-  {
-    id: 22,
-    name: "Tolik",
-    link: image,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 23,
-    name: "Tolik",
-    link: image,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 24,
-    name: "Tolik",
-    link: image,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 25,
-    name: "Tolik",
-    link: image,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 26,
-    name: "Tolik",
-    link: image,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 27,
-    name: "Tolik",
-    link: image,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 28,
-    name: "Tolik",
-    link: image,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 29,
-    name: "Tolik",
-    link: image,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 30,
-    name: "Tolik",
-    link: image,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
+
 ];
 
 export default catsData;

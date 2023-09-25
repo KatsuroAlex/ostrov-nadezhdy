@@ -10,8 +10,11 @@ import Cats from "../Cats/Cats";
 import Volunteers from "../Volunteers/Volunteers";
 import Help from "../Help/Help";
 import Logo from "../Logo/Logo";
-import imageDogs from "../../images/5555 1.png"; 
-import imageCats from "../../images/kitty 2.png"; 
+// import imageDogs from "../../images/5555 1.png"; 
+import imageDogs from "../../images/dog_page_logo_cropped.png"; 
+
+// import imageCats from "../../images/kitty 2.png"; 
+import imageCats from "../../images/kitty_3_cropped.png"; 
 
 
 
@@ -19,7 +22,7 @@ function App() {
   return (
     <div className="app">
       <Routes>
-        <Route exact path="/"
+        <Route path="/"
           element={
             <>
               <Header />
@@ -29,7 +32,7 @@ function App() {
             </>
           }
         ></Route>
-        <Route exact path="/dogs"
+        <Route path="/dogs"
           element={
             <>
               <Header />
@@ -39,7 +42,7 @@ function App() {
             </>
           }
         ></Route>
-        <Route exact path="/cats"
+        <Route path="/cats"
           element={
             <>
               <Header />
@@ -49,7 +52,7 @@ function App() {
             </>
           }
         ></Route>
-        <Route exact path="/volunteers"
+        <Route path="/volunteers"
           element={
             <>
               <Header />
@@ -58,7 +61,7 @@ function App() {
             </>
           }
         ></Route>
-        <Route exact path="/help"
+        <Route path="/help"
           element={
             <>
               <Header />
@@ -69,7 +72,6 @@ function App() {
         ></Route>
       </Routes>
     </div>   
-
   );
 }
 

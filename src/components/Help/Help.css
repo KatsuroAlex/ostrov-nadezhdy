@@ -26,8 +26,27 @@
   padding-right: 40px;
   font-family: 'Bad Script', cursive;
   line-height: 45px;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-decoration: underline;
 
 }
+
+.help__title-middle {
+  font-size: 28px;
+  color: #000;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Bad Script', cursive;
+  line-height: 45px;
+  margin-bottom: 0;
+}
+
+.help-list {
+  list-style-type: none;
+}
+
+
 
 
 .help__list-item {
@@ -37,6 +56,13 @@
   margin-right: 40px;
   font-family: 'Bad Script', cursive;
   line-height: 45px;
+  list-style-type: none;
+
+}
+
+.help__list-item:before {
+  content: "-";
+  margin-right: 0.5em;
 }
 
 .help__title-bottom {
@@ -58,6 +84,10 @@
   }
   
   .help__title {
+    font-size: 26px;
+  }
+
+  .help__title-middle {
     font-size: 26px;
   }
   
@@ -85,6 +115,11 @@
     line-height: 30px;
   }
   
+
+  .help__title-middle {
+    font-size: 18px;
+    line-height: 30px;
+  }
   
   .help__list-item {
     font-size: 18px;
@@ -106,6 +141,10 @@
   }
   
   .help__title {
+    font-size: 16px;
+  }
+
+  .help__title-middle {
     font-size: 16px;
   }
   
@@ -131,6 +170,14 @@
   }
   
   .help__title {
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px auto;
+  }
+
+  .help__title-middle {
     font-size: 14px;
     line-height: 25px;
     padding-left: 20px;

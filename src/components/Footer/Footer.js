@@ -2,7 +2,6 @@ import './Footer.css';
 import React from "react";
 import LogoOdnokl from '../../images/odnoglazniki_icon.png';
 import LogoVk from '../../images/vk_icon.png';
-import LogoFb from '../../images/facebook_icon.png';
 import LogoPhone from '../../images/telephone_icon.png';
 import LogoMail from '../../images/email_icon.png';
 import LogoFooter from '../../images/Logo_footer.jpg';
@@ -26,7 +25,7 @@ function Header() {
           </div>
           <div className="footer__contacts-block">
             <img className="footer__contacts-icon" alt="Логотип почта" src={LogoMail}></img>
-            <p className="footer__contacts-mail">www@yandex.ru</p>
+            <p className="footer__contacts-mail">kokuninalena@gmail.ru</p>
           </div>
         </div>
 
@@ -54,7 +53,7 @@ function Header() {
 
               </a>
             </li>
-            <li className="footer__icons-item">
+            {/* <li className="footer__icons-item">
               <a
                 className="footer__social-icon"
                 href="https://www.facebook.com/groups/1127108644041954/"
@@ -63,7 +62,7 @@ function Header() {
               >
                 <img className="footer__social-icon" alt="Логотип Facebook" src={LogoFb}></img>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

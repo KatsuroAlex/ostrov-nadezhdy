@@ -5,7 +5,8 @@
   margin: 0 auto;
   box-shadow:  5px 0 25px rgba(0, 0, 0, 0.5),
   -5px 0 25px rgba(0, 0, 0, 0.5);
-
+  background: #f1f1f1;
+  border-bottom: 2px solid #000;
 }
 
 .logo__logo-container {
@@ -67,6 +68,23 @@
 
 }
 
+.dog-section-size {
+  max-width: 50%;
+}
+
+.no-margin {
+  margin-bottom: 0;
+}
+
+
+.logo__title-main {
+  font-size: 36px;
+  color: #000;
+  text-align: center;
+  margin: 57px auto 24px auto;
+  font-family: 'Bad Script', cursive;
+}
+
 
 @media screen and (max-width: 900px) {
   .logo__header {
@@ -105,9 +123,9 @@
     height: 100%;
   }
 
-  .logo__logo-container {
+  /* .logo__logo-container {
     height: 400px;  
-  }
+  } */
 
   .logo__picture {
     width: 100%;
@@ -149,9 +167,9 @@
     font-size: 7px;
   }
 
-  .logo__logo-container {
+  /* .logo__logo-container {
     height: 350px;  
-  }
+  } */
 
 }
 

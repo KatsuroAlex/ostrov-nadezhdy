@@ -7,7 +7,8 @@ import dogImage3 from '../../images/kdbE9cfAFzA.jpg';
 import dogImage4 from '../../images/Eda4j_Q2X9M.jpg';
 import dogImage5 from '../../images//R1el9GtltHk.jpg';
 import imageVolunteers from '../../images/volunteers_kittys 1.png'
-import headerImage from '../../images/main_header.png';
+// import headerImage from '../../images/main_header.png';
+import headerImage from '../../images/Logo_header-title.png';
 
 
 
@@ -23,7 +24,7 @@ function Volunteers() {
         <p className="logo__title">Все о волонтерстве</p> 
       </div>
 
-      <h2 className="volunteers__title-main">В нашем приюте около 150 собак и 30 кошек, поэтому нам нужны волонтеры!</h2>
+      <h2 className="volunteers__title-main">В нашем приюте около 150 собак и 50 кошек, поэтому нам нужны волонтеры!</h2>
       <div className="volunteers__container">
         <div className="volunteers__picture volunteers__picture--first">
           <img alt="Фото собаки" src={dogImage1} />
@@ -37,7 +38,7 @@ function Volunteers() {
         приходить в приют хотя бы раз в неделю, и оказывать
         посильную помощь животным: социализировать,
         выгуливать, следить за их состоянием, пытаться
-        найти им постоянный дом и хозяев или помогать
+        найти им постоянный дом и хозяев, готовить им еду или помогать
         с уборкой внутри приюта.
       </p>
       <div className="volunteers__container-second">
@@ -56,7 +57,7 @@ function Volunteers() {
         “Патронаж” - а именно взять опеку над конкретной 
         собакой/кошкой, оказывая ей всяческую поддержку,
         такую как поиск хозяев, денежная или медицинская
-        помощь.
+        помощь, прогулки.
       </p>
     </section>
   );
