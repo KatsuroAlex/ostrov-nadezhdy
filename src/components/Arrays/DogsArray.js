@@ -1,4 +1,4 @@
-import image from '../../images/R1el9GtltHk.jpg';
+// import image from '../../images/R1el9GtltHk.jpg';
 // import dog10 from '../../images/DogsPhoto/Dog10 1.jpg';
 // import dog11 from '../../images/DogsPhoto/Dog11 gallery.jpg';
 // import dog12 from '../../images/DogsPhoto/Dog12 gallery.jpg';
@@ -43,39 +43,39 @@ import dog37 from '../../images/DogsPhoto/37.jpg';
 import dog38 from '../../images/DogsPhoto/38.jpg';
 import dog39 from '../../images/DogsPhoto/39.jpg';
 import dog40 from '../../images/DogsPhoto/40.jpg';
-import dog41 from '../../images/DogsPhoto/41.jpg';
-import dog42 from '../../images/DogsPhoto/42.jpg';
-import dog43 from '../../images/DogsPhoto/43.jpg';
-import dog44 from '../../images/DogsPhoto/44.jpg';
-import dog45 from '../../images/DogsPhoto/45.jpg';
-import dog46 from '../../images/DogsPhoto/46.jpg';
-import dog47 from '../../images/DogsPhoto/47.jpg';
-import dog48 from '../../images/DogsPhoto/48.jpg';
-import dog49 from '../../images/DogsPhoto/49.jpg';
-import dog50 from '../../images/DogsPhoto/50.jpg';
-import dog51 from '../../images/DogsPhoto/51.jpg';
-import dog52 from '../../images/DogsPhoto/52.jpg';
-import dog53 from '../../images/DogsPhoto/53.jpg';
-import dog54 from '../../images/DogsPhoto/54.jpg';
-import dog55 from '../../images/DogsPhoto/55.jpg';
-import dog56 from '../../images/DogsPhoto/56.jpg';
-import dog57 from '../../images/DogsPhoto/57.jpg';
-import dog58 from '../../images/DogsPhoto/58.jpg';
-import dog59 from '../../images/DogsPhoto/59.jpg';
-import dog60 from '../../images/DogsPhoto/60.jpg';
+// import dog41 from '../../images/DogsPhoto/41.jpg';
+// import dog42 from '../../images/DogsPhoto/42.jpg';
+// import dog43 from '../../images/DogsPhoto/43.jpg';
+// import dog44 from '../../images/DogsPhoto/44.jpg';
+// import dog45 from '../../images/DogsPhoto/45.jpg';
+// import dog46 from '../../images/DogsPhoto/46.jpg';
+// import dog47 from '../../images/DogsPhoto/47.jpg';
+// import dog48 from '../../images/DogsPhoto/48.jpg';
+// import dog49 from '../../images/DogsPhoto/49.jpg';
+// import dog50 from '../../images/DogsPhoto/50.jpg';
+// import dog51 from '../../images/DogsPhoto/51.jpg';
+// import dog52 from '../../images/DogsPhoto/52.jpg';
+// import dog53 from '../../images/DogsPhoto/53.jpg';
+// import dog54 from '../../images/DogsPhoto/54.jpg';
+// import dog55 from '../../images/DogsPhoto/55.jpg';
+// import dog56 from '../../images/DogsPhoto/56.jpg';
+// import dog57 from '../../images/DogsPhoto/57.jpg';
+// import dog58 from '../../images/DogsPhoto/58.jpg';
+// import dog59 from '../../images/DogsPhoto/59.jpg';
+// import dog60 from '../../images/DogsPhoto/60.jpg';
 
 const dogsData = [
   {
     id: 1,
     name: "Дана",
-    link: dog2,
+    link: "http://drive.google.com/uc?export=view&id=1G5hKsfSYQCoiMz6pHjku_ylo7A1nvoIQ",
     description: "Дана по характеру: умная, хитрая лисичка, звоночек. Обработана, вакцинирована, стерилизована.",
 
   },
   {
     id: 2,
     name: "Пыжуму",
-    link: dog2,
+    link: "https://drive.google.com/uc?export=view&id=1juAf251BRqB77HGV8LBNcv9S5SNTBo6H",
     description: "Пыжума очень скромная, спокойная и дружелюбная собака!",
   },
   {
@@ -306,120 +306,120 @@ const dogsData = [
     link: dog40,
     description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
   },
-  {
-    id: 41,
-    name: "Tolik",
-    link: dog41,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 42,
-    name: "Tolik",
-    link: dog42,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 43,
-    name: "Tolik",
-    link: dog43,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 44,
-    name: "Tolik",
-    link: dog44,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 45,
-    name: "Tolik",
-    link: dog46,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 47,
-    name: "Tolik",
-    link: dog47,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 48,
-    name: "Tolik",
-    link: dog48,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 49,
-    name: "Tolik",
-    link: dog49,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 50,
-    name: "Tolik",
-    link: dog50,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 51,
-    name: "Tolik",
-    link: dog51,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 52,
-    name: "Tolik",
-    link: dog52,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 53,
-    name: "Tolik",
-    link: dog53,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 54,
-    name: "Tolik",
-    link: dog54,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 55,
-    name: "Tolik",
-    link: dog55,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 56,
-    name: "Tolik",
-    link: dog56,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 57,
-    name: "Tolik",
-    link: dog57,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 58,
-    name: "Tolik",
-    link: dog58,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 59,
-    name: "Tolik",
-    link: dog59,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
-  {
-    id: 60,
-    name: "Tolik",
-    link: dog60,
-    description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
-  },
+  // {
+  //   id: 41,
+  //   name: "Tolik",
+  //   link: dog41,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 42,
+  //   name: "Tolik",
+  //   link: dog42,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 43,
+  //   name: "Tolik",
+  //   link: dog43,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 44,
+  //   name: "Tolik",
+  //   link: dog44,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 45,
+  //   name: "Tolik",
+  //   link: dog46,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 47,
+  //   name: "Tolik",
+  //   link: dog47,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 48,
+  //   name: "Tolik",
+  //   link: dog48,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 49,
+  //   name: "Tolik",
+  //   link: dog49,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 50,
+  //   name: "Tolik",
+  //   link: dog50,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 51,
+  //   name: "Tolik",
+  //   link: dog51,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 52,
+  //   name: "Tolik",
+  //   link: dog52,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 53,
+  //   name: "Tolik",
+  //   link: dog53,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 54,
+  //   name: "Tolik",
+  //   link: dog54,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 55,
+  //   name: "Tolik",
+  //   link: dog55,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 56,
+  //   name: "Tolik",
+  //   link: dog56,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 57,
+  //   name: "Tolik",
+  //   link: dog57,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 58,
+  //   name: "Tolik",
+  //   link: dog58,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 59,
+  //   name: "Tolik",
+  //   link: dog59,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
+  // {
+  //   id: 60,
+  //   name: "Tolik",
+  //   link: dog60,
+  //   description: "Люблю бегать, прыгать, лаять, копать землю и искать всякие палки",
+  // },
 
 
   

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ostrov-nadezhdy/static/css/main.4fc27bcc.css",
-    "main.js": "/ostrov-nadezhdy/static/js/main.5916398d.js",
+    "main.css": "/ostrov-nadezhdy/static/css/main.64d7ef61.css",
+    "main.js": "/ostrov-nadezhdy/static/js/main.fef6ff3c.js",
     "static/js/787.bd9e7969.chunk.js": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js",
     "static/media/kenan-kitchen-LRu2JPt1yD0-unsplash.jpg": "/ostrov-nadezhdy/static/media/kenan-kitchen-LRu2JPt1yD0-unsplash.1f0538426082fcf61eb2.jpg",
     "static/media/mona-eendra-vC8wj_Kphak-unsplash.jpg": "/ostrov-nadezhdy/static/media/mona-eendra-vC8wj_Kphak-unsplash.411a9995dbda4cece4de.jpg",
@@ -11,7 +11,7 @@
     "static/media/volunteers_kittys 1.png": "/ostrov-nadezhdy/static/media/volunteers_kittys 1.fa8eb0a84dff93630eca.png",
     "static/media/dogs_24 1.png": "/ostrov-nadezhdy/static/media/dogs_24 1.a79e8a91265f01a3983c.png",
     "static/media/12.jpeg": "/ostrov-nadezhdy/static/media/12.3eda16944116c9b04973.jpeg",
-    "static/media/map.png": "/ostrov-nadezhdy/static/media/map.ace22730381a2f500829.png",
+    "static/media/How_to_find.png": "/ostrov-nadezhdy/static/media/How_to_find.c9f6d3090a855c206095.png",
     "static/media/i.jpeg": "/ostrov-nadezhdy/static/media/i.c4454d29f92774802d59.jpeg",
     "static/media/logo_header.svg": "/ostrov-nadezhdy/static/media/logo_header.70a3f3dc589d10467f2b938add5b13e8.svg",
     "static/media/vk_icon.png": "/ostrov-nadezhdy/static/media/vk_icon.2ea54aba6ca9a22a637f.png",
@@ -91,12 +91,12 @@
     "static/media/BadScript.woff2": "/ostrov-nadezhdy/static/media/BadScript.8ef24318a4f9f463a66d.woff2",
     "static/media/Logo_header-title.png": "/ostrov-nadezhdy/static/media/Logo_header-title.1892fab41864b1e42bae.png",
     "index.html": "/ostrov-nadezhdy/index.html",
-    "main.4fc27bcc.css.map": "/ostrov-nadezhdy/static/css/main.4fc27bcc.css.map",
-    "main.5916398d.js.map": "/ostrov-nadezhdy/static/js/main.5916398d.js.map",
+    "main.64d7ef61.css.map": "/ostrov-nadezhdy/static/css/main.64d7ef61.css.map",
+    "main.fef6ff3c.js.map": "/ostrov-nadezhdy/static/js/main.fef6ff3c.js.map",
     "787.bd9e7969.chunk.js.map": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fc27bcc.css",
-    "static/js/main.5916398d.js"
+    "static/css/main.64d7ef61.css",
+    "static/js/main.fef6ff3c.js"
   ]
 }

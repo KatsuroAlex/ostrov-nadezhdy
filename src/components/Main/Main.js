@@ -1,6 +1,6 @@
 import './Main.css';
 import React from "react";
-import image from "../../images/dogs_24 1.png";
+import image from "../../images/dogs_24 1-2.png";
 // import headerImage from "../../images/main_header.png";
 import headerImage from "../../images/Logo_header-title.png";
 

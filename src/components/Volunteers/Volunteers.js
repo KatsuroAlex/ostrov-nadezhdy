@@ -1,11 +1,11 @@
 import './Volunteers.css';
 import React from "react";
-import dogImage1 from '../../images/kenan-kitchen-LRu2JPt1yD0-unsplash.jpg';
+import dogImage1 from '../../images/kenan-kitchen-LRu2JPt1yD0-unsplash-2.jpg';
 import dogImage2 from '../../images/LcDFln1j-aI.jpg';
 
 import dogImage3 from '../../images/kdbE9cfAFzA.jpg';
 import dogImage4 from '../../images/Eda4j_Q2X9M.jpg';
-import dogImage5 from '../../images//R1el9GtltHk.jpg';
+import dogImage5 from '../../images/R1el9GtltHk-2-2.jpg';
 import imageVolunteers from '../../images/volunteers_kittys 1.png'
 // import headerImage from '../../images/main_header.png';
 import headerImage from '../../images/Logo_header-title.png';
