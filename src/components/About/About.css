@@ -81,8 +81,8 @@
   line-height: 40px;
   text-align: justify;
   max-width: 44%;
-  font-family: 'Bad Script', cursive;
-  font-weight: bold;
+  /* font-family: 'Bad Script', cursive; */
+  /* font-weight: bold; */
 }
 
 .about__image {
@@ -121,7 +121,7 @@
   font-size: 32px;
   text-align: center;
   color: #8f5531;
-  font-family: 'Lobster', cursive;
+  /* font-family: 'Lobster', cursive; */
   
 }
 
@@ -130,8 +130,8 @@
   font-size: 28px;
   color: #ffffff;
   text-align: justify;
-  font-family: 'Bad Script', cursive;
-  font-weight: bold;
+  /* font-family: 'Bad Script', cursive; */
+  /* font-weight: bold; */
 }
 
 .about__find {
@@ -145,7 +145,7 @@
   text-align: center;
   padding-top: 30px;
   margin-top: 0;
-  font-family: 'Lobster', cursive;
+  /* font-family: 'Lobster', cursive; */
 }
 
 .about__find-description {
@@ -154,8 +154,8 @@
   margin-bottom: 0px;
   padding-bottom: 25px;
   text-align: justify;
-  font-family: 'Bad Script', cursive;
-  font-weight: bold;
+  /* font-family: 'Bad Script', cursive; */
+  /* font-weight: bold; */
 }
 
 
@@ -182,9 +182,9 @@
     font-size: 24px;
   }
   
-  .about__find-description {
+  /* .about__find-description {
     font-size: 24px;
-  }
+  } */
 
 }
 

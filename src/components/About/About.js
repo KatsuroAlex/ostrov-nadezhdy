@@ -2,7 +2,7 @@ import './About.css';
 import React from "react";
 import dogImage from "../../images/i.jpeg" 
 import dogImageSecond from "../../images/12.jpeg" 
-import mapImage from "../../images/map.png";
+import mapImage from "../../images/How_to_find.png";
 
 
 function About() {
@@ -33,7 +33,7 @@ function About() {
 
       <div className="about__first-block">
         {/* <p className="about__first-block-title">Приют «Остров надежды» спасает брошенных и бездомных животных, стерилизует, вакцинирует. </p> */}
-        <p className="about__first-block-title">Наш работает с 27 апреля 2016 года и существует уже почти 8 лет, 
+        <p className="about__first-block-title">Наш приют работает с 27 апреля 2016 года и существует уже почти 8 лет, 
         насчитывает более 200 подопечных.</p>
 
         <div className="about__image animated-from-right">
@@ -60,7 +60,7 @@ function About() {
 
       <div className="about__find">
         <h2 className="about__find-title">Как нас найти?</h2>
-        <p className="about__find-description">Нас легко найти. При выезде из Городца по ул. Новой,не доезжая до "Лукойла", поворот налево - между зданием криминальной полиции и базой строительных материалов.Через 300-500 м очень плохой дороги Вы увидите наш "ОСТРОВ НАДЕЖДЫ",за вторым домом #119-наш зелёный забор!</p>
+        <p className="about__find-description">Нас легко найти. При выезде из Городца по ул. Новой,не доезжая до "Лукойла", поворот налево - между зданием криминальной полиции и базой строительных материалов.Через 300-500 м очень плохой дороги Вы увидите наш "ОСТРОВ НАДЕЖДЫ",за вторым домом #119-наш зелёный забор! Вот схема проезда:</p>
       </div> 
 
       <div className="about__map">

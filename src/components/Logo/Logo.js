@@ -32,7 +32,7 @@ function Logo({image}) {
             </div>
           </div>
         </div>
-        <h2 className="logo__title-main">Чтобы ознакомиться с нашими подопечными наведите на них мышкой!</h2>
+        {/* <h2 className="logo__title-main">Чтобы познакомиться с нашими подопечными наведите на карточку мышкой!</h2> */}
       </div>
     </section>
   );

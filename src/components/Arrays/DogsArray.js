@@ -64,12 +64,11 @@ import dog58 from '../../images/DogsPhoto/58.jpg';
 import dog59 from '../../images/DogsPhoto/59.jpg';
 import dog60 from '../../images/DogsPhoto/60.jpg';
 
-
 const dogsData = [
   {
     id: 1,
     name: "Дана",
-    link: dog1,
+    link: dog2,
     description: "Дана по характеру: умная, хитрая лисичка, звоночек. Обработана, вакцинирована, стерилизована.",
 
   },
