@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ostrov-nadezhdy/static/css/main.fa15479e.css",
-    "main.js": "/ostrov-nadezhdy/static/js/main.e203046e.js",
+    "main.css": "/ostrov-nadezhdy/static/css/main.3a1ce428.css",
+    "main.js": "/ostrov-nadezhdy/static/js/main.1477d21f.js",
     "static/js/787.bd9e7969.chunk.js": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js",
     "static/media/kenan-kitchen-LRu2JPt1yD0-unsplash-2.jpg": "/ostrov-nadezhdy/static/media/kenan-kitchen-LRu2JPt1yD0-unsplash-2.d2c91caf4fbef0da2b2f.jpg",
     "static/media/mona-eendra-vC8wj_Kphak-unsplash.jpg": "/ostrov-nadezhdy/static/media/mona-eendra-vC8wj_Kphak-unsplash.ac187f1b73ed2437960b.jpg",
@@ -71,12 +71,12 @@
     "static/media/BadScript.woff2": "/ostrov-nadezhdy/static/media/BadScript.8ef24318a4f9f463a66d.woff2",
     "static/media/Logo_header-title.png": "/ostrov-nadezhdy/static/media/Logo_header-title.1892fab41864b1e42bae.png",
     "index.html": "/ostrov-nadezhdy/index.html",
-    "main.fa15479e.css.map": "/ostrov-nadezhdy/static/css/main.fa15479e.css.map",
-    "main.e203046e.js.map": "/ostrov-nadezhdy/static/js/main.e203046e.js.map",
+    "main.3a1ce428.css.map": "/ostrov-nadezhdy/static/css/main.3a1ce428.css.map",
+    "main.1477d21f.js.map": "/ostrov-nadezhdy/static/js/main.1477d21f.js.map",
     "787.bd9e7969.chunk.js.map": "/ostrov-nadezhdy/static/js/787.bd9e7969.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa15479e.css",
-    "static/js/main.e203046e.js"
+    "static/css/main.3a1ce428.css",
+    "static/js/main.1477d21f.js"
   ]
 }
