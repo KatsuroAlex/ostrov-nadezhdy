@@ -45,8 +45,11 @@
   background-color: #ff3cac;
   background-image: linear-gradient(
     225deg,
-    #ff3cac 0%,
+    /* #ff3cac 0%,
     #784ba0 50%,
+    #2b86c5 100% */
+    #fca138 0%,
+    #a2a3a3 50%,
     #2b86c5 100%
   );
   color: #f3f3f3;
