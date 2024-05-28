@@ -70,6 +70,9 @@
   text-align: center;
   margin: 40px auto 40px auto;
   padding: 0 90px;
+  font-family: 'Geologica Roman';
+  font-style: normal;
+  font-weight: 600;
   /* font-family: 'Bad Script', cursive; */
   /* font-family: 'Lobster', cursive; */
 }
@@ -81,6 +84,9 @@
   padding: 40px 90px;
   max-width: 1060px;
   margin: 0 auto;
+  font-family: 'Geologica Roman';
+  font-style: normal;
+  font-weight: 300;
   /* font-family: 'Bad Script', cursive; */
 }
 

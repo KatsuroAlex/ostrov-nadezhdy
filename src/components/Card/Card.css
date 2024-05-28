@@ -37,6 +37,9 @@
   text-align: center;
   /* font-family: 'Bad Script', cursive; */
   /* font-family: 'Lobster', cursive; */
+  font-family: 'Geologica Roman';
+  font-style: normal;
+  font-weight: 600;
 
 }
 
@@ -104,6 +107,12 @@
   object-fit: cover;
   overflow: hidden;
   transition: opacity .3s ease-in;
+}
+
+.link {
+  font-family: 'Geologica Roman';
+  font-style: normal;
+  font-weight: 300;
 }
 
 

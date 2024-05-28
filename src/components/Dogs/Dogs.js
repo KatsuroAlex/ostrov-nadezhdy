@@ -14,6 +14,7 @@ function Dogs({ onCardClick }) {
           link={dog.link}
           onCardClick={onCardClick}
           description={dog.description}
+          post={dog.postSocial}
         />
       ))}
     </section>

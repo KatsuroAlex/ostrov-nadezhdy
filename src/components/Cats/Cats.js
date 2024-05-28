@@ -13,6 +13,8 @@ function Cats({ onCardClick }) {
           link={cat.link}
           onCardClick={onCardClick}
           description={cat.description}
+          post={cat.postSocial}
+
         />
       ))}
     </section>

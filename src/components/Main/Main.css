@@ -86,8 +86,11 @@
   color: #8f5531;
   font-size: 28px;
   text-align: center;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-top: 0px;
+  font-family: 'Geologica Roman';
+  font-style: normal;
+  font-weight: 600;
 }
 
 .main__description-subtitle {
@@ -96,9 +99,12 @@
   color: #FFFFFF;
   font-size: 21px;
   text-align: center;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-top: auto;
   margin-bottom: 0px;
+  font-family: 'Geologica Roman';
+  font-style: normal;
+  font-weight: 500;
 }
 
 .auto_margin {
