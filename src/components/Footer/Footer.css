@@ -39,7 +39,8 @@
   display: flex;
   flex-direction: column;
   margin: auto auto auto 20px;
-  font-family: 'Bad Script', cursive;
+  /* font-family: 'Bad Script', cursive; */
+  font-family: 'Geologica Roman';
 
 }
 
