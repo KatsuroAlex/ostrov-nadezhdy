@@ -72,6 +72,8 @@ function Help() {
           <li className="help__list-item">Заботливые женщины могут помочь в приготовлении еды для Островитяшек, уборке помещений и территории, с помывкой посуды.</li> 
       </ol>
       <h3 className="help__title-bottom">Мы бесконечно признательны за любую поддержку!</h3>
+      {/* <a className="help__title-middle" href="document.pdf" download="document.pdf">Скачать PDF</a> */}
+      <a className="help__title-middle centrate" href="document.pdf" target="_blank">Нажмите здесь, чтобы ознакомиться с Уставом приюта.</a>
     </section>
   );
 };

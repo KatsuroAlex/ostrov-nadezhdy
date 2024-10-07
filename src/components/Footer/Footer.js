@@ -25,12 +25,12 @@ function Header() {
           </div>
           <div className="footer__contacts-block">
             <img className="footer__contacts-icon" alt="Логотип почта" src={LogoMail}></img>
-            <p className="footer__contacts-mail">kokuninalena@gmail.ru</p>
+            <p className="footer__contacts-mail">kokuninalena@gmail.com</p>
           </div>
         </div>
 
         <div className="footer__social">
-          <h2 className="footer__social-title">Наши соцсети:</h2>
+          <h2 className="footer__social-title">Наша страница в ВК:</h2>
           <ul className="footer__social-icons">
             <li className="footer__icons-item">
               <a
@@ -42,7 +42,7 @@ function Header() {
                 <img className="footer__social-icon" alt="Логотип VK" src={LogoVk}></img>
               </a>
             </li>
-            <li className="footer__icons-item">
+            {/* <li className="footer__icons-item">
               <a
                 className="footer__social-icon"
                 href="https://ok.ru/group/54488147492980"
@@ -52,7 +52,7 @@ function Header() {
                 <img className="footer__social-icon" alt="Логотип Одноклассники" src={LogoOdnokl}></img>
 
               </a>
-            </li>
+            </li> */}
             {/* <li className="footer__icons-item">
               <a
                 className="footer__social-icon"

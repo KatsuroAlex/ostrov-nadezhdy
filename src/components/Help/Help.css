@@ -51,6 +51,11 @@
   font-weight: 300;
 }
 
+.centrate {
+  margin-bottom: 30px;
+
+}
+
 .help-list {
   list-style-type: none;
 }
